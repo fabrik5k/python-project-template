@@ -1,7 +1,7 @@
 [project]
-name = "imgkit"
+name = "python-package"
 version = "0.0.1"
-description = "Uma lib python que oferece uma serie de ferramentas para o processamento de imagem"
+description = ""
 authors = [
     {name = "Fabio Oliveira",email = "fabio.oliveira1403@outlook.com"}
 ]
@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.11,<4.0"
 
 [project.urls]
-repository = "https://github.com/fabrik5k/imgkit"
+repository = "https://github.com/fabrik5k/python-project-template"
 
 
 [build-system]
