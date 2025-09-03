@@ -18,5 +18,6 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   Test:
     runs-on: ubuntu-latest
+    needs: Explore-GitHub-Actions
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
